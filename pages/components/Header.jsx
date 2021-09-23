@@ -6,14 +6,14 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             {/* LOGO */}
             <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <Image width={80} height={80} src={logo} alt='logo' />
-                <span className="ml-3 text-xl">TEMVER Servicios y construcciones</span>
+                <Image width={80} height={50} src={logo} alt='logo' />
+                <span className="ml-3 text-xl">TEMVER Servicio y construcciones</span>
             </a>
             {/* NAVBAR */}
             <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a className="mr-5 hover:text-orange hover:text-lg">Diseños</a>
-                <a className="mr-5 hover:text-orange hover:text-lg">Especificaciones</a>
-                <a className="mr-5 hover:text-orange hover:text-lg">Contacto</a>
+                <a href='#who_we_are' className="mr-5 hover:text-orange hover:text-lg">Quienes somos</a>
+                <a href='#galery' className="mr-5 hover:text-orange hover:text-lg">Galeria</a>
+                <a href='#works' className="mr-5 hover:text-orange hover:text-lg">Trabajos</a>
             </nav>
             {/* SOCIAL MEDIA */}
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

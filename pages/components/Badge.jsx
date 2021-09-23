@@ -9,8 +9,8 @@ const Badge = () => {
                         <Image src={badge} />
                     </div>
                 </div>
-                <div className='absolute fade-in left-2/4 top-2/4 text-9xl -translate-x-2/4 -translate-y-2/4 align-middle'>
-                    <h1 >
+                <div className='absolute fade-in left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-center'>
+                    <h1 className='break-words text-9xl mb-2'>
                         <span className='text-green'>
                             TEM
                         </span>
@@ -18,6 +18,9 @@ const Badge = () => {
                             VER
                         </span>
                     </h1>
+                        <span className='text-4xl text-gray-50 mt-0'>
+                            Servicio y construcciones
+                        </span>
                 </div>
             </div>
         </>
