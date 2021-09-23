@@ -5,7 +5,7 @@ const Badge = () => {
         <>
             <div className='max-w-full align-middle'>
                 <div className='bg-black'>
-                    <div className='h-screen w-screen bg-badge opacity-30' />
+                    <div className='h-screen w-auto bg-badge opacity-30' />
                 </div>
                 <div className='absolute fade-in left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 text-center'>
                     <h1 className='text-7xl lg:text-9xl mb-2'>
