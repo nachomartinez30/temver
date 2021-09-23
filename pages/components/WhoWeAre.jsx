@@ -109,6 +109,9 @@ const WhoWeAre = () => {
                 {/* IMG */}
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 slide-in-right">
                     <Image className="object-cover object-center rounded" alt="hero" src={pisoConductivoImg} />
+                    <span className='justify-end'>
+                        piso conductivo
+                    </span>
                 </div>
             </div>
         </section>

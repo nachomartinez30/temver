@@ -7,13 +7,13 @@ import Galery from './components/Galery';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head><title>TEMVER Servicios y construcciones</title></Head>
       <Navbar />
       <Badge />
       <WhoWeAre />
       <Galery />
       <Footer />
-    </>
+    </div>
   );
 }
