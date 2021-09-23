@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/pages/assets/piso_conductivo.jpg')",  
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

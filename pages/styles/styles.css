@@ -1,3 +1,9 @@
+/* backgrouds */
+.bg-badge{
+  background-image: url('../assets/badge.jpg');
+  background-size: cover;
+      background-position: center;
+}
 
 ANIMATION
 .slide-in-top {
