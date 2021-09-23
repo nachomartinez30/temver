@@ -7,7 +7,7 @@ import Badge from './components/Badge';
 export default function Home() {
   return (
     <>
-      <Head>TEMVER Servicios y construcciones</Head>
+      <Head><title>TEMVER Servicios y construcciones</title></Head>
       <Navbar />
       <Badge />
     </>
