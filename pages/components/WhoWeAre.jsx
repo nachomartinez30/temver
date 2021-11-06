@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import pisoConductivoImg from '../assets/piso_conductivo.jpg'
+import pisoConductivoImg from '../assets/img/piso_conductivo.jpg'
 const WhoWeAre = () => {
     return (
         <section className="text-gray-600 body-font" id='who_we_are'>
@@ -34,7 +34,7 @@ const WhoWeAre = () => {
                                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                                                         </svg>
                                                     </span>
-                                                    <p class="ml-2">
+                                                    <p class="ml-2 ">
                                                         Piso conductivo.
                                                     </p>
                                                 </li>
@@ -109,9 +109,11 @@ const WhoWeAre = () => {
                 {/* IMG */}
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 slide-in-right">
                     <Image className="object-cover object-center rounded" alt="hero" src={pisoConductivoImg} />
-                    <span className='justify-end'>
-                        piso conductivo
-                    </span>
+                    <div className='pt-2 text-right'>
+                        <span className='italic'>
+                            Piso conductivo
+                        </span>
+                    </div>
                 </div>
             </div>
         </section>

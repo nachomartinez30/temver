@@ -4,6 +4,7 @@ import Badge from './components/Badge';
 import WhoWeAre from './components/WhoWeAre';
 import Footer from './components/Footer';
 import Galery from './components/Galery';
+import Services from './components/Services';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Badge />
       <WhoWeAre />
       <Galery />
+      <Services />
       <Footer />
     </div>
   );

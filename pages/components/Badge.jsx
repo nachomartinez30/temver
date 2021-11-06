@@ -1,5 +1,5 @@
-import Image from 'next/image'
-// import badge from '../assets/badge.jpg'
+
+
 const Badge = () => {
     return (
         <>

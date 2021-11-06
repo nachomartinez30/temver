@@ -1,6 +1,6 @@
 /* backgrouds */
 .bg-badge{
-  background-image: url('../assets/badge.jpg');
+  background-image: url('../img/badge.jpg');
   background-size: cover;
   background-position: center;
 }
